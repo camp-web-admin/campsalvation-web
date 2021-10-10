@@ -1,0 +1,33 @@
+.icon
+{
+    background-color: #69633f;
+    width: 75% !important;
+    height: 100%;
+    border-radius: 30%;
+    padding: 2rem;
+}
+
+.icon-container
+{
+    width: 16vw;
+    height: 12vw;
+    border-width: 1px;
+}
+
+.icon-container > p
+{
+    font-size: 2vw;
+    color: black;
+}
+
+.icon-container > a
+{
+    color: #212529;
+}
+
+.icon-text
+{
+    font-size: 1.7vw !important;
+    margin-left: -2rem;
+    margin-right: -2rem;
+}

@@ -1,0 +1,17 @@
+#home-content
+{
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 6rem;
+    background-color: #b3a88c;
+    position: relative;
+}
+
+.icon-flex-container
+{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 17vw;
+}

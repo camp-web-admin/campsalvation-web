@@ -1,0 +1,14 @@
+#nav-logo
+{
+    width: 10rem;
+    color: white;
+    filter: invert(1);
+}
+
+#nav-title
+{
+    color: gray;
+    margin-bottom: 0px;
+    margin-left: 1rem;
+    margin-right: 2rem;
+}
