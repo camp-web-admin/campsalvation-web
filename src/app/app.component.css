@@ -1,26 +1,9 @@
-.banner
+::ng-deep hr
 {
-    background-image: url('https://lh3.googleusercontent.com/DN19FgesDyFWsd5QFgX6gNaNmQr_MSVs4NW5ipsfqH9EmS2jBzJHgahkuzS13yTdc-x3lO1zTiZRhp5k2swJW2XZfpUjp2j0O5p2pNQKjnu6Sr1IRPIa98FS0n6PnKFj4x8TAqaKYg=w2400');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: bottom;
-    background-attachment: fixed;
-    height: 30rem;
-    padding-bottom: 18rem;
-    padding-top: 4rem;
-    margin: 0;
-    margin-top: 3.7rem;
-    font-family: 'Courgette', cursive;
-    
-    color: lightgray;
-    text-shadow:
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;
-
-    -webkit-user-select: none; /* Safari */        
-    -moz-user-select: none; /* Firefox */
-    -ms-user-select: none; /* IE10+/Edge */
-    user-select: none; /* Standard */
+  display: block;
+  border-style: inset;
+  border-width: 1px;
+  margin: auto;
+  margin-bottom: 2rem;
+  width: 90%;
 }

@@ -9,6 +9,7 @@ import { IndexComponent } from './index/index.component';
 import { MissionComponent } from './mission/mission.component';
 import { IconBoxComponent } from './icon-box/icon-box.component';
 import { FooterComponent } from './footer/footer.component';
+import { CarouselComponent } from './carousel/carousel.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { FooterComponent } from './footer/footer.component';
     IndexComponent,
     MissionComponent,
     IconBoxComponent,
-    FooterComponent
+    FooterComponent,
+    CarouselComponent
   ],
   imports: [
     BrowserModule,

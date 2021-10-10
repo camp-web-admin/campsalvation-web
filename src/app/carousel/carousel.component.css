@@ -1,0 +1,18 @@
+.carousel 
+{
+    display: table;
+    vertical-align: middle
+}
+
+#carouselExampleControls
+{
+    width:100%; 
+    height: 16vw!important;
+}
+
+.carousel-item h4
+{
+    font-size: 3vw;
+    padding-left: 4%;
+    padding-right: 4%;
+}

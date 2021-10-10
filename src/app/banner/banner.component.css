@@ -24,3 +24,19 @@
     -ms-user-select: none; /* IE10+/Edge */
     user-select: none; /* Standard */
 }
+
+.banner h1
+{
+    font-size: 6vw;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+}
+.banner p
+{
+    position: fixed;
+    margin-top: 8rem;
+    left: 0px;
+    right: 0px;
+    font-size: 2vw;
+}
