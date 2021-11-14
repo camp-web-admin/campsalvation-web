@@ -1,0 +1,11 @@
+<cs-app-banner [title]="banner.title" [text]="banner.text"></cs-app-banner>
+<div id="home-content" class="border">
+    <div class="home-large">
+        <div *ngFor="let iconRow of icons" class="icon-flex-container">
+            <app-icon-box *ngFor="let icon of iconRow" [iconTitle]="icon.icon" [iconImg]="icon.img" [link]="icon.link"
+                [iconText]="icon.text"></app-icon-box>
+        </div>
+    </div>
+    <hr id="home-hr">
+    <cs-app-carousel [carouselDataObservable]="carouselData"></cs-app-carousel>
+</div>

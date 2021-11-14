@@ -1,0 +1,30 @@
+#direction-content
+{
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 6rem;
+    background-color: #b3a88c;
+    position: relative;
+}
+
+
+#direction-flex
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 10vw;
+  padding-left: 10vw;
+}
+
+.direction-content
+{
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.map-frame
+{
+    width: 30vw;
+    height: 20vw;
+}

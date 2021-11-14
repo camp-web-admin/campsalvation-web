@@ -1,0 +1,30 @@
+    .faq-card-header
+  {
+      border-left:#343a40 solid;
+  }
+
+  .faq-card-body
+  {
+      font-size: 1.2rem;
+  }
+
+  .faq-card
+  {
+      background-color: #b3a88c;
+      border: none;
+  }
+  .faq-btn
+  {
+      color: #343a40;
+      font-size: 2rem;
+  }
+
+  .faq-btn:hover
+  {
+      color: black;
+      text-decoration: none;
+  }
+  .faq-btn:focus
+  {
+    text-decoration: none;
+  }

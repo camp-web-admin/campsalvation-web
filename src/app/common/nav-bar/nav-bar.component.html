@@ -1,0 +1,68 @@
+<nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+    <img id="nav-logo" src="/assets/logo.png">
+    <a routerLink="/home" routerLinkActive="active-link">
+        <h2 id="nav-title">Camp Salvation</h2>
+    </a>
+
+    <!-- Create navbar to collapse on small pages or mobile-->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Drop Down menue navabar-->
+    <div class="collapse navbar-collapse justify-content-between" id="collapsibleNavbar">
+        <ul class="navbar-nav ml-auto mr-5">
+
+            <!-- About Sections-->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                    About Us
+                </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" routerLink="/mission">Mission</a>
+                    <a class="dropdown-item" routerLink="/about">About Camp</a>
+                </div>
+            </li>
+
+            <!-- Camp Information Sections-->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                    Camp Information
+                </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" routerLink="/directions">Directions</a>
+                    <a class="dropdown-item" routerLink="/registration">Registration</a>
+                    <a class="dropdown-item" routerLink="/dates">Camp Dates</a>
+                </div>
+            </li>
+
+            <!-- Support Sections-->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                    Support Us
+                </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" routerLink="/volunteer">Volunteer</a>
+                </div>
+            </li>
+
+            <!-- Question Sections-->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                    Questions
+                </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" routerLink="/contact">Contact</a>
+                    <a class="dropdown-item" routerLink="/faq">FAQ</a>
+                </div>
+            </li>
+
+            <!-- Gift Shop Section-->
+            <li class="nav-item">
+                <a class="nav-link" routerLink="/store">
+                    Gift Shop
+                </a>
+            </li>
+        </ul>
+    </div>
+</nav>

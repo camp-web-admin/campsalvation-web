@@ -1,0 +1,17 @@
+<div [attr.id]="accordianTitle">
+    <div *ngFor="let data of (boxDataObserver|async); let i=index" class="card faq-card">
+        <div class="card-header faq-card-header">
+            <h2 class="mb-0">
+                <button class="btn btn-link faq-btn" data-toggle="collapse" [attr.data-target]="'#collapse' + i + accordianTitle" 
+                    aria-expanded="true" [attr.aria-controls]="'#collapse' + i + accordianTitle">
+                    {{data.title}}
+                </button>
+            </h2>
+        </div>
+        <div [attr.id]="'collapse' + i + accordianTitle" class="collapse" [attr.aria-labelledby]="'heading' + i" [attr.data-parent]="'#' + accordianTitle">
+            <div class="card-body faq-card-body">
+                {{data.information}}
+            </div>
+        </div>
+    </div>
+</div>
