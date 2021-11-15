@@ -9,7 +9,7 @@ export interface ExpandBoxData {
 @Component({
   selector: 'cs-app-expand-box',
   templateUrl: './expand-box.component.html',
-  styleUrls: ['./expand-box.component.css']
+  styleUrls: ['./expand-box.component.scss']
 })
 export class ExpandBoxComponent implements OnInit {
   @Input() boxDataObserver: BehaviorSubject<ExpandBoxData[]> = new BehaviorSubject<ExpandBoxData[]>([]);

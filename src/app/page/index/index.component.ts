@@ -7,7 +7,7 @@ import { BehaviorSubject } from 'rxjs';
 @Component({
   selector: 'cs-app-index',
   templateUrl: './index.component.html',
-  styleUrls: ['./index.component.css']
+  styleUrls: ['./index.component.scss']
 })
 
 export class IndexComponent implements OnInit {

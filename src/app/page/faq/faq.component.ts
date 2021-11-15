@@ -12,7 +12,7 @@ interface faqCacheData {
 @Component({
   selector: 'cs-app-faq',
   templateUrl: './faq.component.html',
-  styleUrls: ['./faq.component.css']
+  styleUrls: ['./faq.component.scss']
 })
 export class FaqComponent implements OnInit {
   generalBoxData: BehaviorSubject<ExpandBoxData[]> = new BehaviorSubject<ExpandBoxData[]>([]);
